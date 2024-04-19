@@ -29,3 +29,6 @@ jobs:
         cache: 'sbt'
     - name: Run project
       run: sbt run
+    - name: Print incremental compilation log
+      run: sbt 'last compileIncremental'
+      if: always()

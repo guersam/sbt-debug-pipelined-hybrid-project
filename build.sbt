@@ -4,7 +4,7 @@ lazy val root = project
     name := "sbt-pipelining-debug",
     version := "0.1.0-SNAPSHOT",
 
-    scalaVersion := "3.4.1"
+    scalaVersion := "3.4.1",
 
     usePipelining := true,
     compileOrder  := CompileOrder.JavaThenScala,
